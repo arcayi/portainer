@@ -1,4 +1,4 @@
 FROM portainer/portainer:latest
-MAINTAINER Haixin Lee <docker@lihaixin.name>
+MAINTAINER arcayi
 # ADD favicon.ico /ico
 ENTRYPOINT ["/portainer","--templates","https://raw.githubusercontent.com/arcayi/portainer/master/templates.json"]
